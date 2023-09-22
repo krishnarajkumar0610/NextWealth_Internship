@@ -1,0 +1,22 @@
+# declare a class Insatgram_post
+
+# declaring the properties like : 
+#     private String user_name
+#     private String comments
+#     private int like
+#     private int post
+    
+# delcaring construcore to set user name
+#     def __init__(self,username):
+#         self.username=username
+# declaring functions like :
+#     public give_likes()
+#     public give_comments()
+    
+# declaring functions like to change user name and password:
+#     private change_userName()
+#     private change_password()
+    
+# outside the class ask user to set user name
+# asking user to post photos or videos 
+# asking audience to like and comment
