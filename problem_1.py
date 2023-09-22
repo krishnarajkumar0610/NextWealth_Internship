@@ -26,3 +26,9 @@ for i in range(len(splited_words)):
     check_sentence=[]
     
 print(count)
+
+
+# OUTPUT
+
+# enter the sentence :The king went to the forest with the wife and a servernt. The king shot a deer. The king went to the forest again the next day
+# 7
