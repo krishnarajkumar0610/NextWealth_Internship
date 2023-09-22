@@ -29,8 +29,21 @@ insert into name_list (name,city,pincode,age) values
 
 select * from name_list where city="MAA";
 
+id, name, city, pincode, age
+1	aravind	MAA	112	19
+2	ragul	MAA	113	20
+
 select count(id) as no_of_people from name_list where city="TRI";
+
+no_of_people
+1
 
 select   count(distinct(city)) as no_of_people from name_list;
 
+no_of_people
+3
+
 select avg(age) as average_age from name_list;
+
+average_age
+20.0000
