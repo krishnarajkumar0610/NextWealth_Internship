@@ -20,4 +20,9 @@ for i in range(len(splited_words)):
         final_string+=" "
         
 print(final_string)
-        
+
+
+# Output
+
+# Enter a line :I am the King
+# K oc vjg ipkM 
