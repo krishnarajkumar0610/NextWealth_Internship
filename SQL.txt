@@ -5,16 +5,16 @@
 # 3       sree     MDU         021         19
 # 4       krishna  TRI         022         22
 
-create database tour;
-use tour;
-create table name_list(
-id int primary key auto_increment,
-name varchar(30),
-city varchar(30),
-pincode varchar(30),
-age int
+create database tour;   # creating the database tour
+use tour;           # using the tour database
+create table name_list(     # creating the table with essantial fields
+id int primary key auto_increment,  # id is primary key and auto auto incremented
+name varchar(30),       # name is varchar type size is 30
+city varchar(30),   # city is varchar type size is 30
+pincode varchar(30),    # pincode is varchar type size is 30
+age int # age is int
 );
-insert into name_list (name,city,pincode,age) values
+insert into name_list (name,city,pincode,age) values    # inserting the values in the rows 
 ("aravind","MAA","112",19),
 ("ragul","MAA","113",20),
 ("sree","MDU","021",19),
@@ -27,7 +27,7 @@ insert into name_list (name,city,pincode,age) values
 # Count the no of people in each city
 # Print the avg age of the students in this table
 
-select * from name_list where city="MAA";
+select * from name_list where city="MAA";   # this query is to display the table but who is from city = "MAA"
 
 output:
 
@@ -35,21 +35,21 @@ id, name, city, pincode, age
 1	aravind	MAA	112	19
 2	ragul	MAA	113	20
 
-select count(id) as no_of_people from name_list where city="TRI";
+select count(id) as no_of_people from name_list where city="TRI";   # this is display the count of the peoples who is from city = "TRI"
 
 output:
 
 no_of_people
 1
 
-select   count(distinct(city)) as no_of_people from name_list;
+select   count(distinct(city)) as no_of_people from name_list;  # this is display the count of peoples from unique city 
 
 output:
 
 no_of_people
 3
 
-select avg(age) as average_age from name_list;
+select avg(age) as average_age from name_list;   # this is to display the average age of total peoples
 
 output:
 
