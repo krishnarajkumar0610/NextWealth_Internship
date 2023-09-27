@@ -5,7 +5,7 @@ try:
     c = a / b
     print(c)
     b = True
-except TypeError:
+except TypeError: 
     b = False
     print(TypeError)
 finally:
