@@ -40,10 +40,10 @@ for i in range(i,len(splited_words)):   # to traverse the list
                 i=j
                 break
              
-print(count)
+print(f"Count :{count}")
 
 
 # OUTPUT
 
-# enter the sentence :The king went to the forest with the wife and a servernt. The king shot a deer. The king went to the forest again the next day
-# 7
+# enter the sentence :The king went to the forest with the wife and a servernt.The king shot a deer. The king went to the forest again the next day
+# Count :4
